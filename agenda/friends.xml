@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<agenda>
+	<aries>
+		<friend>
+			<name>Vlad Andrei Tudose</name>
+			<phone>0772458456</phone>
+			<web>http://students.info.uaic.ro/~vlad.tudose</web>
+		</friend>
+	</aries>
+
+
+	<gemini>
+		<friend>
+			<name>Mihai Deaconu</name>
+			<address>Neamt Location</address>
+			<phone>0792454516</phone>
+			<web>http://students.info.uaic.ro/~mihai.deaconu</web>
+		</friend>
+	</gemini>
+
+
+	<leo>
+		<friend>
+			<name>Vlad Manea</name>
+			<address>Iasi Vasile Lupu</address>
+			<phone>0740123456</phone>
+			<web>http://students.info.uaic.ro/~vlad.manea</web>
+			<email>http://students.info.uaic.ro/~vlad.manea</email>
+		</friend>
+	</leo>
+
+	<virgo>
+		<friend>
+			<name>Sebastian Codrin Ditu</name>
+			<address>Iasi Targusor C3</address>
+			<web>http://students.info.uaic.ro/~sebastian.ditu</web>
+			<email>http://students.info.uaic.ro/~sebastian.ditu</email>
+		</friend>
+	</virgo>
+
+	<libra>
+		<friend>
+			<name>Mihai Valache</name>
+		</friend>
+	</libra>
+
+
+
+	<capricorn>
+		<friend>
+			<name>Unnamed Friend <span class="gray">No. 1</span></name>
+			<address>Iasi Valea Lupului</address>
+			<phone>0740123478</phone>
+		</friend>
+	</capricorn>
+
+
+	<pisces>
+		<friend>
+			<name>Codrut Andrei Burdujoc</name>
+			<address>Iasi Elena Doamna</address>
+			<phone>0740458456</phone>
+			<web>http://students.info.uaic.ro/~codrut.burdujoc</web>
+			<email>http://students.info.uaic.ro/~codrut.burdujoc</email>
+		</friend>
+		<friend>
+			<name>Unnamed Friend <span class="gray">No. 2</span></name>
+			<phone>0772458676</phone>
+			<web>http://students.info.uaic.ro/~radu.gagos</web>
+		</friend>
+	</pisces>
+</agenda>

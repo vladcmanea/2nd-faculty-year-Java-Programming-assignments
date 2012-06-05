@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<agenda>
+#if($A1.size() > 0)
+	<aries>
+#foreach($friend in $A1)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</aries>
+#end
+
+#if($A2.size() > 0)
+	<taurus>
+#foreach($friend in $A2)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</taurus>
+#end
+
+#if($A3.size() > 0)
+	<gemini>
+#foreach($friend in $A3)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</gemini>
+#end
+
+#if($A4.size() > 0)
+	<cancer>
+#foreach($friend in $A4)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</cancer>
+#end
+
+#if($A5.size() > 0)
+	<leo>
+#foreach($friend in $A5)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</leo>
+#end
+
+#if($A6.size() > 0)
+	<virgo>
+#foreach($friend in $A6)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</virgo>
+#end
+
+#if($A7.size() > 0)
+	<libra>
+#foreach($friend in $A7)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</libra>
+#end
+
+#if($A8.size() > 0)
+	<scorpio>
+#foreach($friend in $A8)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</scorpio>
+#end
+
+#if($A9.size() > 0)
+	<sagittarius>
+#foreach($friend in $A9)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</sagittarius>
+#end
+
+#if($A10.size() > 0)
+	<capricorn>
+#foreach($friend in $A10)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</capricorn>
+#end
+
+#if($A11.size() > 0)
+	<aquarius>
+#foreach($friend in $A11)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</aquarius>
+#end
+
+#if($A12.size() > 0)
+	<pisces>
+#foreach($friend in $A12)
+		<friend>
+			<name>$friend.name</name>
+#if($friend.address != '')
+			<address>$friend.address</address>
+#end
+#if($friend.phone != '')
+			<phone>$friend.phone</phone>
+#end
+#if($friend.web != '')
+			<web>$friend.web</web>
+#end
+#if($friend.email != '')
+			<email>$friend.web</email>
+#end
+		</friend>
+#end
+	</pisces>
+#end
+</agenda>
