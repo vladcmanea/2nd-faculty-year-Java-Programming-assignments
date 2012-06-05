@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Friends</title>
+<style type="text/css">
+
+body 
+{
+	background-color: #046;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-family:Calibri, Verdana, Helvetica, sans-serif;
+	font-size:16px;
+	color:#fff;
+}
+
+a:link 
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited 
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover 
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:active 
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+p
+{
+	margin-top:0px;
+	margin-left:40px;
+}
+
+h1
+{
+	margin-bottom:9px;
+	margin-top:9px;
+	margin-left:280px;
+	font-size:400%;
+	font-weight:normal;
+		text-shadow: 0px 0px 1px #fff;
+
+}
+
+h2
+{
+	margin:0;
+	margin-top:8px;
+	margin-bottom:8px;
+	font-size:300%;
+	font-weight:normal;
+		text-shadow: 0px 0px 1px #fff;
+
+}
+
+h3
+{
+	margin:0;
+	margin-top:7px;
+	margin-bottom:7px;
+	font-size:200%;
+	font-weight:normal;
+		text-shadow: 0px 0px 1px #fff;
+
+}
+
+hr
+{
+	height:0px;
+	border:1px;
+}
+
+hr.large
+{
+	border-color:#057;
+	border-style:solid;
+	/*-webkit-box-shadow: 0px 0px 1px #057;
+	-moz-box-shadow: 0px 0px 1px #057;*/
+}
+
+hr.small
+{
+	border-color:#005070;
+	border-style:dashed;
+	/*-webkit-box-shadow: 0px 0px 1px #057;
+	-moz-box-shadow: 0px 0px 1px #057;*/
+}
+
+span.gray
+{
+	color:#068;
+		text-shadow: 0px 0px 1px #08C;
+}
+
+ul
+{
+	list-style-type:none;
+	margin-left:250px;
+	margin-top:-50px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+<h1>Friends :)</h1>
+
+<hr class="large" />
+
+#if($A1.size() > 0)
+<h2><img alt="foto" src="data/1.png" /> Aries</h2>
+<p>You have $A1.size() friend#if($A1.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A1)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A2.size() > 0)
+<h2><img alt="foto" src="data/2.png" /> Taurus</h2>
+<p>You have $A2.size() friend#if($A2.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A2)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A3.size() > 0)
+<h2><img alt="foto" src="data/3.png" /> Gemini</h2>
+<p>You have $A3.size() friend#if($A3.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A3)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A4.size() > 0)
+<h2><img alt="foto" src="data/4.png" /> Cancer</h2>
+<p>You have $A4.size() friend#if($A4.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A4)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A5.size() > 0)
+<h2><img alt="foto" src="data/5.png" /> Leo</h2>
+<p>You have $A5.size() friend#if($A5.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A5)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A6.size() > 0)
+<h2><img alt="foto" src="data/6.png" /> Virgo</h2>
+<p>You have $A6.size() friend#if($A6.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A6)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A7.size() > 0)
+<h2><img alt="foto" src="data/7.png" /> Libra</h2>
+<p>You have $A7.size() friend#if($A7.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A7)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A8.size() > 0)
+<h2><img alt="foto" src="data/8.png" /> Scorpio</h2>
+<p>You have $A8.size() friend#if($A8.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A8)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A9.size() > 0)
+<h2><img alt="foto" src="data/9.png" /> Sagittarius</h2>
+<p>You have $A9.size() friend#if($A9.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A9)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A10.size() > 0)
+<h2><img alt="foto" src="data/10.png" /> Capricorn</h2>
+<p>You have $A10.size() friend#if($A10.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A10)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A11.size() > 0)
+<h2><img alt="foto" src="data/11.png" /> Aquarius</h2>
+<p>You have $A11.size() friend#if($A11.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A11)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+#if($A12.size() > 0)
+<h2><img alt="foto" src="data/12.png" /> Pisces</h2>
+<p>You have $A12.size() friend#if($A12.size() != 1)s#end:</p>
+<ul>
+#foreach($friend in $A12)
+<li><h3>$friend.name</h3>
+#if ($friend.address != '')
+<b>Address</b>: $friend.address<br />
+#end
+#if ($friend.phone != '')
+<b>Phone</b>: $friend.phone<br />
+#end
+#if ($friend.web != '')
+<b>Web</b>: <a href="$friend.web">$friend.web</a><br />
+#end
+#if ($friend.email != '')
+<b>Email</b>: <a href="mailto:$friend.email">$friend.email</a>
+#end
+</li>
+#end
+</ul>
+<hr class="small" />
+#end
+
+</body>
+</html>
